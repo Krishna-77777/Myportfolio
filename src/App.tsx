@@ -354,12 +354,7 @@ function App() {
               <h3 className="text-lg font-semibold text-white">Complete Interview Preparation - Self-Paced DSA</h3>
               <p className="mt-2 text-gray-300">GeeksForGeeks</p>
               <p className="text-sm text-blue-400">March 2024 – July 2024</p>
-              <a
-                 
-                  className="mt-4 inline-flex items-center text-blue-400 hover:text-blue-300"
-                >
-                  Show Credentials <ExternalLink className="ml-2 w-4 h-4" />
-                </a>
+             
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
