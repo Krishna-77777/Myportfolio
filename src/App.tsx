@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {  Cpu, Shield, FileJson, Menu, X, Github, Linkedin, Mail,Download, ExternalLink, Database, Globe, FileCode2, Code2, Terminal, GraduationCap } from 'lucide-react';
+import {   Menu, X, Github, Linkedin, Mail,Download, ExternalLink,   GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 
