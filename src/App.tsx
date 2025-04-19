@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Github, Linkedin, Mail,Download, ExternalLink, Database, Globe, FileCode2, Code2, Terminal, GraduationCap } from 'lucide-react';
+import {  Cpu, Shield, FileJson, Menu, X, Github, Linkedin, Mail,Download, ExternalLink, Database, Globe, FileCode2, Code2, Terminal, GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 
@@ -19,44 +19,52 @@ function App() {
   ];
 
   const skills = [
-    { name: 'C++', icon: <Code2 className="w-8 h-8" /> },
-    { name: 'JavaScript', icon: <FileCode2 className="w-8 h-8" /> },
-    { name: 'C', icon: <Terminal className="w-8 h-8" /> },
-    { name: 'PHP', icon: <Globe className="w-8 h-8" /> },
-    { name: 'Python', icon: <Code2 className="w-8 h-8" /> },
-    { name: 'Java', icon: <FileCode2 className="w-8 h-8" /> },
-    { name: 'HTML & CSS', icon: <Globe className="w-8 h-8" /> },
-    { name: 'Bootstrap', icon: <Code2 className="w-8 h-8" /> },
-    { name: 'Node.js', icon: <Terminal className="w-8 h-8" /> },
-    { name: 'React.js', icon: <Code2 className="w-8 h-8" /> },
-    { name: 'Angular', icon: <Code2 className="w-8 h-8" /> },
-    { name: 'Git', icon: <Github className="w-8 h-8" /> },
-    { name: 'MySQL', icon: <Database className="w-8 h-8" /> },
-    { name: 'MongoDB', icon: <Database className="w-8 h-8" /> }
+    { name: 'C++', icon: <img src="/public/icon/c++.jpg" alt="C++" className="w-13 h-13" /> },
+    { name: 'Java', icon: <img src="/public/icon/java.jpg" alt="C++" className="w-15 h-15" /> },
+    { name: 'Python', icon: <img src="/public/icon/python.jpg" alt="C++" className="w-15 h-15" /> },
+    { name: 'C', icon: <img src="/public/icon/c.jpg" alt="C++" className="w-15 h-15" /> },
+    { name: 'Html & Css', icon: <img src="/public/icon/html.jpg" alt="C++" className="w-15 h-15" /> },
+    { name: 'Javascript', icon: <img src="/public/icon/OIP.jpg" alt="C++" className="w-15 h-15" /> },
+    { name: 'React.js', icon: <img src="/public/icon/react.jpg" alt="react" className="w-15 h-15" /> },
+    { name: 'Angular', icon: <img src="/public/icon/angular.jpg" alt="angular" className="w-15 h-15" /> },
+    { name: 'BootStrap', icon: <img src="/public/icon/bootstrap.jpg" alt="bootstrap" className="w-15 h-15" /> },
+    { name: 'Node.js', icon: <img src="/public/icon/node.png" alt="node" className="w-15 h-15" /> },
+    { name: 'Php', icon: <img src="/public/icon/php.jpg" alt="php" className="w-15 h-15" /> },
+    { name: 'Git', icon: <img src="/public/icon/gitt.jpg" alt="git" className="w-15 h-15" /> },
+    { name: 'MongoDB', icon: <img src="/public/icon/mongo.jpg" alt="mongo" className="w-15 h-15" /> },
+    { name: 'MySql', icon: <img src="/public/icon/mysql.jpg" alt="mysql" className="w-15 h-15" /> },
+    
+     
   ];
+  
 
   const projects = [
+    {
+      title: "Portfolio Website",
+      description: "Modern portfolio showcasing projects and skills using React and Tailwind CSS",
+      duration: 'March 2025 - April 2025',
+      link: "https://github.com/Krishna-77777/Myportfolio",
+      image: "https://i.imgur.com/vOjWcmA.png", 
+    },
     {
       title: 'E-Commerce Shopping Website',
       description: 'Developed a fully functional e-commerce platform using React.js to deliver a seamless and engaging user experience. ',
       duration: 'Sept 2024 - Nov 2024',
-      link: 'https://github.com/Krishna-77777/react-ecommerce-project-master'
+      link: 'https://github.com/Krishna-77777/react-ecommerce-project-master',
+      image: " https://i.imgur.com/0g0OEGV.png",
+
+     
     },
     {
       title: 'Travel Website',
-      description: 'The Travel Explorer Website is a dynamic and interactive platform designed to inspire and assist users in planning their ideal travel experiences. ',
+      description: 'The Travel Explorer Website is a dynamic and interactive platform designed to inspire and assist users in planning their ideal travel experiences.',
       duration: 'Feb 2024 - May 2024',
-      link: 'https://github.com/Krishna-77777/Travel-website'
+      link: 'https://github.com/Krishna-77777/Travel-website',
+      image: "https://i.imgur.com/NKTIsfR.png", 
     },
-    {
-      title: 'Portfolio Website',
-      description: 'Modern portfolio showcasing projects and skills using React and Tailwind CSS',
-      duration: 'Current',
-      link: 'https://github.com/Krishna-77777/Myportfolio'
-      
-    }
+     
   ];
-
+  
   const education = [
    
     {
@@ -322,24 +330,42 @@ function App() {
 
       {/* Projects Section */}
       <section id="projects" className="py-20 bg-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-white text-center mb-8">Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {projects.map((project) => (
-              <div key={project.title} className="bg-gray-900 p-6 rounded-lg shadow-glow">
-                <h3 className="text-lg font-semibold text-white">{project.title}</h3>
-                <p className="mt-2 text-gray-300">{project.description}</p>
-                <a
-                  href={ project.link}
-                  className="mt-4 inline-flex items-center text-blue-400 hover:text-blue-300"
-                >
-                  View Project <ExternalLink className="ml-2 w-4 h-4" />
-                </a>
-              </div>
-            ))}
-          </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-extrabold text-white text-center mb-8">
+          Projects
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {projects.map((project, index) => (
+            <motion.div
+              key={project.title}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.2 }}
+              viewport={{ once: true }}
+              whileHover={{ scale: 1.03 }}
+              className="bg-gray-900 p-6 rounded-lg shadow-glow cursor-pointer"
+            >
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover rounded-md mb-4"
+              />
+              <h3 className="text-lg font-semibold text-white">
+                {project.title}
+              </h3>
+              <p className="mt-2 text-gray-300">{project.description}</p>
+              <a
+                href={project.link}
+                className="mt-4 inline-flex items-center text-blue-400 hover:text-blue-300"
+              >
+                View Project <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
+              <p className="mt-2 text-gray-300">{project.duration}</p>
+            </motion.div>
+          ))}
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Certificates Section */}
       <section id="certificates" className="py-20 bg-black">
@@ -426,6 +452,18 @@ function App() {
       >
         <h3 className="text-lg font-semibold text-white"> Became the overall champions of Northeast Sports Organisation Jalandhar (NESOJ)</h3>
         <p className="text-sm text-blue-400 mb-2">April 2023 – April 2025</p>
+        <div className="mt-2 text-gray-300 space-y-4">
+           
+        </div>
+      </motion.div>
+      <motion.div 
+        initial={{ opacity: 0, x: 20 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}
+        className="bg-gray-900 p-6 rounded-lg shadow-glow"
+      >
+        <h3 className="text-lg font-semibold text-white"> Took part in Smart India Hackathon (SIH) 2024.   </h3>
+      
         <div className="mt-2 text-gray-300 space-y-4">
            
         </div>
