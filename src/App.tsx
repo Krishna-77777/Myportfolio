@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {   Menu, X, Github, Linkedin, Mail,Download, ExternalLink,   GraduationCap } from 'lucide-react';
+import {  Code2,FileCode2,Terminal, Globe,Database, Cpu,Shield,FileJson, Menu, X, Github, Linkedin, Mail,Download, ExternalLink,   GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 
@@ -19,23 +19,22 @@ function App() {
   ];
 
   const skills = [
-    { name: 'C++', icon: <img src="/public/icon/c++.jpg" alt="C++" className="w-13 h-13" /> },
-    { name: 'Java', icon: <img src="/public/icon/java.jpg" alt="C++" className="w-15 h-15" /> },
-    { name: 'Python', icon: <img src="/public/icon/python.jpg" alt="C++" className="w-15 h-15" /> },
-    { name: 'C', icon: <img src="/public/icon/c.jpg" alt="C++" className="w-15 h-15" /> },
-    { name: 'Html & Css', icon: <img src="/public/icon/html.jpg" alt="C++" className="w-15 h-15" /> },
-    { name: 'Javascript', icon: <img src="/public/icon/OIP.jpg" alt="C++" className="w-15 h-15" /> },
-    { name: 'React.js', icon: <img src="/public/icon/react.jpg" alt="react" className="w-15 h-15" /> },
-    { name: 'Angular', icon: <img src="/public/icon/angular.jpg" alt="angular" className="w-15 h-15" /> },
-    { name: 'BootStrap', icon: <img src="/public/icon/bootstrap.jpg" alt="bootstrap" className="w-15 h-15" /> },
-    { name: 'Node.js', icon: <img src="/public/icon/node.png" alt="node" className="w-15 h-15" /> },
-    { name: 'Php', icon: <img src="/public/icon/php.jpg" alt="php" className="w-15 h-15" /> },
-    { name: 'Git', icon: <img src="/public/icon/gitt.jpg" alt="git" className="w-15 h-15" /> },
-    { name: 'MongoDB', icon: <img src="/public/icon/mongo.jpg" alt="mongo" className="w-15 h-15" /> },
-    { name: 'MySql', icon: <img src="/public/icon/mysql.jpg" alt="mysql" className="w-15 h-15" /> },
-    
-     
+    { name: 'C++', icon: <Cpu className="w-8 h-8" /> },
+    { name: 'JavaScript', icon: <FileCode2 className="w-8 h-8" /> },
+    { name: 'C', icon: <Terminal className="w-8 h-8" /> },
+    { name: 'PHP', icon: <Globe className="w-8 h-8" /> },
+    { name: 'Python', icon: <FileJson className="w-8 h-8" /> },
+    { name: 'Java', icon: <Code2 className="w-8 h-8" /> },
+    { name: 'HTML & CSS', icon: <Globe className="w-8 h-8" /> },
+    { name: 'Bootstrap', icon: <Shield className="w-8 h-8" /> },
+    { name: 'Node.js', icon: <Terminal className="w-8 h-8" /> },
+    { name: 'React.js', icon: <Code2 className="w-8 h-8" /> },
+    { name: 'Angular', icon: <Code2 className="w-8 h-8" /> },
+    { name: 'GitHub', icon: <Github className="w-8 h-8" /> },
+    { name: 'MySQL', icon: <Database className="w-8 h-8" /> },
+    { name: 'MongoDB', icon: <Database className="w-8 h-8" /> },
   ];
+  
   
 
   const projects = [
