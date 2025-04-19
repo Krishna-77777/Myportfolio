@@ -52,7 +52,8 @@ function App() {
       title: 'Portfolio Website',
       description: 'Modern portfolio showcasing projects and skills using React and Tailwind CSS',
       duration: 'Current',
-      link: 'https://github.com/Krishna-77777/Portfolio-react'
+      link: 'https://github.com/Krishna-77777/Myportfolio'
+      
     }
   ];
 
@@ -297,7 +298,7 @@ function App() {
       <section id="skills" className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-white text-center mb-12">Skills</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
             {skills.map((skill, index) => (
               <motion.div
                 key={skill.name}
@@ -310,7 +311,7 @@ function App() {
                 <div className="text-blue-400 mb-3 group-hover:text-blue-300 transition-colors duration-300">
                   {skill.icon}
                 </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
+                <span className="text-xl text-gray-100 group-hover:text-white text-style: bold transition-colors duration-300">
                   {skill.name}
                 </span>
               </motion.div>
@@ -354,6 +355,7 @@ function App() {
               <h3 className="text-lg font-semibold text-white">Complete Interview Preparation - Self-Paced DSA</h3>
               <p className="mt-2 text-gray-300">GeeksForGeeks</p>
               <p className="text-sm text-blue-400">March 2024 – July 2024</p>
+              
              
             </motion.div>
             <motion.div 
