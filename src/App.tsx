@@ -42,14 +42,14 @@ function App() {
       title: "Portfolio Website",
       description: "Modern portfolio showcasing projects and skills using React and Tailwind CSS",
       duration: 'March 2025 - April 2025',
-      link: "https://github.com/Krishna-77777/Myportfolio",
+      link: "https://myportfolio-rho-black-83.vercel.app/",
       image: "https://i.imgur.com/vOjWcmA.png", 
     },
     {
       title: 'E-Commerce Shopping Website',
       description: 'Developed a fully functional e-commerce platform using React.js to deliver a seamless and engaging user experience. ',
       duration: 'Sept 2024 - Nov 2024',
-      link: 'https://github.com/Krishna-77777/react-ecommerce-project-master',
+      link: 'https://github.com/Krishna-77777/Ecommerce',
       image: " https://i.imgur.com/0g0OEGV.png",
 
      
@@ -58,7 +58,7 @@ function App() {
       title: 'Travel Website',
       description: 'The Travel Explorer Website is a dynamic and interactive platform designed to inspire and assist users in planning their ideal travel experiences.',
       duration: 'Feb 2024 - May 2024',
-      link: 'https://github.com/Krishna-77777/Travel-website',
+      link: 'https://github.com/Krishna-77777/Travel-website/tree/master/Users/krish/OneDrive/Desktop/lets-travel-master/lets-travel-master',
       image: "https://i.imgur.com/NKTIsfR.png", 
     },
      
