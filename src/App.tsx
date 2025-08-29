@@ -46,11 +46,11 @@ function App() {
       image: "https://i.postimg.cc/bryf9yJb/Screenshot-14.png", 
     },
     {
-      title: 'E-Commerce Shopping Website',
-      description: 'Developed a fully functional e-commerce platform using React.js to deliver a seamless and engaging user experience. ',
+      title: 'LinkShrinker',
+      description: 'Developed a fully functional url shortner website where you can short any url and save it. You can also see the stats of yours ',
       duration: 'Sept 2024 - Nov 2024',
-      link: 'https://github.com/Krishna-77777/Ecommerce',
-      image: " https://i.imgur.com/0g0OEGV.png",
+      link: 'https://url-shortner-tbbc.vercel.app/',
+      image: "https://i.postimg.cc/VvcfV0sP/Screenshot-16.png",
 
      
     },
