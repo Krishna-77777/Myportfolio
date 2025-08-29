@@ -43,7 +43,7 @@ function App() {
       description: "Developed using MERN stack, a website where you can post blog and also review others blog",
       duration: 'March 2025 - April 2025',
       link: "https://blog-space-hs2r.vercel.app/",
-      image: "file:///C:/Users/krish/OneDrive/Pictures/Screenshots/Screenshot%20(14).png", 
+      image: "https://i.postimg.cc/bryf9yJb/Screenshot-14.png", 
     },
     {
       title: 'E-Commerce Shopping Website',
