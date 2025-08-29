@@ -113,7 +113,7 @@ function App() {
               ))}
               <button
                 className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium flex items-center"
-                onClick={() => window.open('/KPspecialCv1.pdf')}
+                onClick={() => window.open('https://drive.google.com/file/d/16LdIsJ2ysTV37kanZ0UToEYoeIJxZYQi/view?usp=sharing')}
               >
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
