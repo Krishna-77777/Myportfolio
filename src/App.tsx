@@ -29,10 +29,12 @@ function App() {
     { name: 'Bootstrap', icon: <Shield className="w-8 h-8" /> },
     { name: 'Node.js', icon: <Terminal className="w-8 h-8" /> },
     { name: 'React.js', icon: <Code2 className="w-8 h-8" /> },
-    { name: 'Angular', icon: <Code2 className="w-8 h-8" /> },
+    { name: 'Next.js', icon: <Code2 className="w-8 h-8" /> },
+    { name: 'Expressjs', icon: <Code2 className="w-8 h-8" /> },
     { name: 'GitHub', icon: <Github className="w-8 h-8" /> },
     { name: 'MySQL', icon: <Database className="w-8 h-8" /> },
     { name: 'MongoDB', icon: <Database className="w-8 h-8" /> },
+    { name: 'Django', icon: <Database className="w-8 h-8" /> },
   ];
   
   
