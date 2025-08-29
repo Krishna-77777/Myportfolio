@@ -22,9 +22,10 @@ function App() {
     { name: 'C++', icon: <Cpu className="w-8 h-8" /> },
     { name: 'JavaScript', icon: <FileCode2 className="w-8 h-8" /> },
     { name: 'C', icon: <Terminal className="w-8 h-8" /> },
-    { name: 'PHP', icon: <Globe className="w-8 h-8" /> },
-    { name: 'Python', icon: <FileJson className="w-8 h-8" /> },
     { name: 'Java', icon: <Code2 className="w-8 h-8" /> },
+    { name: 'Python', icon: <FileJson className="w-8 h-8" /> },
+    { name: 'Django', icon: <Code2 className="w-8 h-8" /> },
+       { name: 'PHP', icon: <Globe className="w-8 h-8" /> },
     { name: 'HTML & CSS', icon: <Globe className="w-8 h-8" /> },
     { name: 'Bootstrap', icon: <Shield className="w-8 h-8" /> },
     { name: 'Node.js', icon: <Terminal className="w-8 h-8" /> },
@@ -34,7 +35,7 @@ function App() {
     { name: 'GitHub', icon: <Github className="w-8 h-8" /> },
     { name: 'MySQL', icon: <Database className="w-8 h-8" /> },
     { name: 'MongoDB', icon: <Database className="w-8 h-8" /> },
-    { name: 'Django', icon: <Database className="w-8 h-8" /> },
+    
   ];
   
   
