@@ -41,7 +41,7 @@ function App() {
     {
       title: "BlogSpace",
       description: "Developed using MERN stack, a website where you can post blog and also review others blog",
-      duration: 'March 2025 - April 2025',
+      duration: 'June 2025 - July 2025',
       link: "https://blog-space-hs2r.vercel.app/",
       image: "https://i.postimg.cc/bryf9yJb/Screenshot-14.png", 
     },
@@ -55,11 +55,11 @@ function App() {
      
     },
     {
-      title: 'Travel Website',
-      description: 'The Travel Explorer Website is a dynamic and interactive platform designed to inspire and assist users in planning their ideal travel experiences.',
+      title: 'Neighbour Match',
+      description: 'Developed using MERN stack, where you can find your neighbour of our choise and find a home of your price range',
       duration: 'Feb 2024 - May 2024',
-      link: 'https://github.com/Krishna-77777/Travel-website/tree/master/Users/krish/OneDrive/Desktop/lets-travel-master/lets-travel-master',
-      image: "https://i.imgur.com/NKTIsfR.png", 
+      link: 'https://neighbourmatch.vercel.app/',
+      image: "https://i.postimg.cc/nL7XzJP2/Screenshot-15.png", 
     },
      
   ];
